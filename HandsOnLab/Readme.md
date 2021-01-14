@@ -15,22 +15,6 @@ Also, you may need to gather historical data that can be used for postmortem roo
 In this HOL, you will be setting up the end-to-end-architecture below.
 ![Architecture](./images/hol-architecture.png)
 
-## Prerequisites
-
-- Azure Subcription
-- Admin Access to Azure AD Tenant & Azure Subscription
-- Mac OS: [PowerShell for Mac](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-6 )
-- Windows OS: PowerShell is built-in
-- [Azure Command Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-    - Recommend installing AZ CLI locally
-    - Do not recommend using the Azure Cloud Shell as it will timeout due to the length of the lab
-- [.NET Core 3.1](https://dotnet.microsoft.com/download)
-- [Visual Studio Code](https://code.visualstudio.com)
-- [C# VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-- [Azure Function VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
-- [Node.js](https://nodejs.org/en/download/)
-- [Git](https://git-scm.com/downloads)
-
 ## Lab Setup
 
 ### Setup Variables
