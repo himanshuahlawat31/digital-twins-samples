@@ -39,9 +39,11 @@ az login
     ```
 1. Edit the below as needed then copy and paste the following into the Powershell window
 
+> You will see Suffix/DeploymentID at the right side of the screen in the Lab Environment section, please update the value of $random with Suffix/DeploymentID
+
 ```azurecli
 $rgname = "adtholrg"
-$random = "adthol" + $(get-random -maximum 10000)
+$random = "adthol" + "Suffix"
 $dtname = $random + "-digitaltwin"
 $location = "eastus"
 $username = Read-Host "Enter username. ex: jdoe@contoso.com"
