@@ -56,7 +56,7 @@ az login
 1. Edit the below as needed then copy and paste the following into the Powershell window
 
 ```azurecli
-$rgname = "adtholrg"+ $(get-random -maximum 10000)
+$rgname = "adtholrg"
 $random = "adthol" + $(get-random -maximum 10000)
 $dtname = $random + "-digitaltwin"
 $location = "eastus"
