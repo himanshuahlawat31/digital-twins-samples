@@ -43,7 +43,7 @@ az login
 
 ```azurecli
 $rgname = "adtholrg"
-$random = "adthol" + "[Replace with DeploymentID from Environment details tab on the right] "
+$random = "adthol" + "[Replace with DeploymentID from Lab Environment details tab on the right] "
 # for example  $random = "adthol" + "123456" 
 $dtname = $random + "-digitaltwin"
 $location = "eastus"
