@@ -44,6 +44,7 @@ az login
 ```azurecli
 $rgname = "adtholrg"
 $random = "adthol" + "[Replace with DeploymentID from Environment details tab on the right] "
+# for example  $random = "adthol" + "123456" 
 $dtname = $random + "-digitaltwin"
 $location = "eastus"
 $username = Read-Host "Enter username. ex: jdoe@contoso.com"
